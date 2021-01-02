@@ -1,7 +1,5 @@
-@media(max-width: 768px) {
-    .w-mob-100 {
-        width: 100% !important;
-    }
+body {
+    background-color: #FBCBBC;
 }
 
 @mixin breakpoint($size){
@@ -11,15 +9,4 @@
     @media only screen and (max-width: $size) {
         @content;
     }
-}
-
-$itemHeight: 125px;
-
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: $itemHeight;
-    text-transform: capitalize;
-    font-size: 20px;
 }
