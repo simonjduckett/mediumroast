@@ -1,0 +1,16 @@
+nav {
+    position: fixed;
+    z-index: 35;
+    top: 34px;
+    width: 100%;
+    padding: 0px 90px 0px 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    .menu-item {
+        color: #fff;
+        p {
+            opacity: 0.5;
+        }
+    }
+}
