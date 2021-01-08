@@ -12,5 +12,11 @@ nav {
         p {
             opacity: 0.5;
         }
+        a {
+            color: #fff;
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 }
