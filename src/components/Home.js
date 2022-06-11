@@ -6,7 +6,10 @@ const Home = () => {
     return ( 
         <section>
             <Hero />
-      <ContentBlock />
+            <ContentBlock 
+            text='We will brew you up a great site that will make your buisness stand out from the rest and give you a professional yet stylish look.' 
+            title='Work with you'
+            />
         </section>
      );
 }

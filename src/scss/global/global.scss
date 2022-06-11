@@ -1,6 +1,50 @@
 body {
     background-color: #FBCBBC;
+    background-color: #565657;
+    background-color: #1C3D36;
     //install correct google font
+}
+
+h1, h2 {
+    font-family: 'Germania One', cursive;
+}
+
+h2 {
+    font-size: 8vw;
+}
+
+a {
+    color: #fff;
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+.loader {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.text-stroke {
+    color: transparent !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    text-stroke: 1px #fff;
+}
+
+.abovePageBorder {
+    z-index: 20;
+    position: relative;
+}
+
+.shrink {
+    transform: scale(0.7) !important;
+    -webkit-transform:scale(0.7);
 }
 
 @mixin breakpoint($size){

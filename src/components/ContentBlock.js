@@ -1,14 +1,13 @@
 import React from 'react';
 
-const ContentBlock = () => {
+const ContentBlock = (props) => {
     return ( 
-        <section className='contentBlock'>
-            <div className='w-50'></div>
+        <section data-scroll-section className='contentBlock abovePageBorder'>
+            <div className='w-50'><h2 className='text-stroke'>{props.title}</h2></div>
             <div className='w-50 position-relative'>
                 <div className='contentBlock__textBottomRight'>
-                    <p>We will brew you up a great site that will make your buisness stand out from the rest and give you a professional yet stylish look.</p>
+                    <p>{props.text}</p>
                 </div>
-                
             </div>
         </section>
      );

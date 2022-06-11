@@ -9,6 +9,7 @@ nav {
     align-items: center;
     .menu-item {
         color: #fff;
+        transition: opacity .8s, margin-top .6s;
         p {
             opacity: 0.5;
         }
@@ -19,4 +20,9 @@ nav {
             }
         }
     }
+}
+
+.opacity-0 {
+    opacity: 0;
+    margin-top: -22px;
 }

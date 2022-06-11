@@ -1,12 +1,13 @@
 #customCursor {
     position: fixed;
-    transition: top .08s, left .08s;
+    transition: top .08s, left .08s, transform .3s;
     top: 0;
     left: 0;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     border: 1px solid #fff;
+    pointer-events: none;
 }
 
 body {
